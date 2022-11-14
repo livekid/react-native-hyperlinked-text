@@ -15,6 +15,7 @@ declare module "react-native-hyperlinked-text" {
         linkStyle?: StyleProp<TextStyle>;
         linkDefs?: ILinkDef[];
         onLinkPress?: (text: string) => void;
+        children: React.ReactNode
     }
 
     export default class HyperlinkedText extends React.Component<IProps, any> {
